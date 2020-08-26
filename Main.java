@@ -23,5 +23,28 @@ public class Main implements Directions {
     public static void runJerooCode() {
      
     }
-
+  Jeroo kang = new Jeroo(0, 0, EAST, 5);
+    kang.plant();
+    kang.hop();
+    kang.turn(LEFT);
+    kang.turn(LEFT);
+    kang.turn(LEFT);
+    kang.hop();
+    kang.turn(LEFT);
+    kang.plant();
+    kang.hop();
+    kang.turn(LEFT);
+    kang.turn(LEFT);
+    kang.turn(LEFT);
+    kang.hop();
+    kang.turn(LEFT);
+    kang.plant();
+    kang.hop();
+    kang.turn(LEFT);
+    kang.turn(LEFT);
+    kang.turn(LEFT);
+    kang.hop();
+    kang.turn(LEFT);
+    kang.plant();
+    kang.hop();
 }
